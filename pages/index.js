@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
-          <p onClick={""}>
+          <p onClick={()=>{return fetch("https://formationapp.onrender.com/scrape")}}>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>
